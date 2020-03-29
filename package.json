@@ -7,8 +7,12 @@
     "bin": {
         "sx": "sx.js"
     },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "scripts": {
-        "test": "echo \"No tests currently available\""
+        "test": "echo \"No tests currently available\"",
+        "deploy": "np"
     },
     "repository": {
         "type": "git",
