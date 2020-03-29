@@ -1,0 +1,30 @@
+{
+    "name": "synix",
+    "version": "0.0.1",
+    "description": "A nodeJs CLI to make the use of command-line easy",
+    "main": "sx.js",
+    "preferGlobal": true,
+    "bin": {
+        "sx": "sx.js"
+    },
+    "scripts": {
+        "test": "echo \"No tests currently available\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/synixjs/synix.git"
+    },
+    "keywords": [
+        "npm",
+        "node",
+        "cli",
+        "easy",
+        "commands"
+    ],
+    "author": "Hemanth Kumar and Kunal Katiyar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/synixjs/synix/issues"
+    },
+    "homepage": "https://github.com/synixjs/synix#readme"
+}
