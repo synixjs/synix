@@ -1,0 +1,22 @@
+{
+    "Globals": [{
+            "des": "None"
+        },
+        {
+            "dow": "None"
+        },
+        {
+            "doc": "None"
+        }
+    ],
+    "Text_editor": [{
+            "editor_name": "None"
+        },
+        {
+            "command": "None"
+        }
+    ],
+    "Custom": [
+        {}
+    ]
+}
