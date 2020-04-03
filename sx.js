@@ -21,7 +21,9 @@ var {
     touch,
     cp,
     clone,
-    sync
+    sync,
+    version,
+    help
 } = require("./commands/exportFile.js");
 
 // Config File
@@ -97,6 +99,10 @@ if (passedArgs.length == 0) {
     clone(passedArgs.slice(1))
 } else if (passedArgs.length >= 1 && passedArgs[0].toLowerCase() == "sync") {
     sync(passedArgs.slice(1));
+} else if (passedArgs.length == 1 && passedArgs[0].toLowerCase() == "version") {
+    version();
+} else if (passedArgs.length == 1 && passedArgs[0].toLowerCase() == "help") {
+    help();
 } else {
     console.error(`Argument(s) ${passedArgs} cannot be parsed`);
 }

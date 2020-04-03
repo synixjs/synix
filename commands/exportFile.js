@@ -16,5 +16,7 @@ module.exports = {
     touch: require("./touch"),
     cp: require("./cp"),
     clone: require("./misc/clone"),
-    sync: require("./misc/sync")
+    sync: require("./misc/sync"),
+    version: require("./version"),
+    help: require("./help")
 };
