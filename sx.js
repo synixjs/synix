@@ -99,7 +99,7 @@ if (passedArgs.length == 0) {
     clone(passedArgs.slice(1))
 } else if (passedArgs.length >= 1 && passedArgs[0].toLowerCase() == "sync") {
     sync(passedArgs.slice(1));
-} else if (passedArgs.length == 1 && passedArgs[0].toLowerCase() == "version") {
+} else if (passedArgs.length == 1 && (passedArgs[0].toLowerCase() == "version" || passedArgs[0].toLowerCase() == "v")) {
     version();
 } else if (passedArgs.length == 1 && passedArgs[0].toLowerCase() == "help") {
     help();
