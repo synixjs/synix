@@ -1,6 +1,6 @@
 {
     "name": "synix",
-    "version": "0.2.1",
+    "version": "0.2.8",
     "description": "A nodeJs CLI to make the use of command-line easy",
     "main": "sx.js",
     "preferGlobal": true,
