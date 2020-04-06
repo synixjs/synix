@@ -6,6 +6,7 @@ function touch(path, FileName = "New") {
     fs.open(new_path, "wx", (err, fd) => {
         if (err) {
             console.log("File cannot be created");
+            console.log('Maybe an error with permissions, please try again')
         } else {
             console.log(`File ${FileName} has been created succesfully`);
         }
