@@ -37,6 +37,7 @@ function init(editorAlias) {
     } else {
         console.log(`${editorAlias} is not supported`)
         console.log("SYNIX is not initialized")
+        console.log('For text-editors list visit https://synix-docs.netlify.com/ccc/commands.html#text-editors-supported')
         process.exit(0);
     }
 
@@ -44,6 +45,7 @@ function init(editorAlias) {
     fs.writeFileSync(filePath, JSON.stringify(sxconfig, null, 1), err => {
         if (err) {
             console.log("Error writing file:", err);
+            console.log('Try installing synix with sudo')
             return;
         }
     });
@@ -52,6 +54,7 @@ function init(editorAlias) {
     console.log("Initializing SYNIX...\n");
     console.log(sxconfig);
     console.log("\nDone.");
+    console.log('For documentation visit https://synix-docs.netlify.com/')
 }
 
 module.exports = init;
