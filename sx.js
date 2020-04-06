@@ -54,6 +54,7 @@ if (passedArgs.length == 2 && passedArgs[0].toLowerCase() == "init") {
 sxconfig.Globals.forEach((obj) => {
     if (Object.values(obj)[0] == "None") {
         console.log("SYNIX is not initialized")
+        console.log('For details on init visit https://synix-docs.netlify.com/ccc/commands.html#init')
         process.exit(0);
     }
 })
@@ -62,6 +63,7 @@ sxconfig.Globals.forEach((obj) => {
 sxconfig.Text_editor.forEach((obj) => {
     if (Object.values(obj)[0] == "None") {
         console.log("SYNIX is not initialized")
+        console.log('For details on init visit https://synix-docs.netlify.com/ccc/commands.html#init')
         process.exit(0);
     }
 })
@@ -69,6 +71,7 @@ sxconfig.Text_editor.forEach((obj) => {
 // argument parsing
 if (passedArgs.length == 0) {
     console.error(`No arguments passed`);
+    console.log('For commands visit https://synix-docs.netlify.com/ccc/commands.html')
 } else if (passedArgs.length == 1 && passedArgs[0].toLowerCase() == "ls") {
     ls("./");
 } else if (passedArgs.length == 1 && passedArgs[0].toLowerCase() == "pwd") {
@@ -105,4 +108,5 @@ if (passedArgs.length == 0) {
     help();
 } else {
     console.error(`Argument(s) ${passedArgs} cannot be parsed`);
+    console.log('For commands visit https://synix-docs.netlify.com/ccc/commands.html');
 }
