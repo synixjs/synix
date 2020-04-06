@@ -13,6 +13,7 @@ function rm(path, FileName) {
                     fs.unlink(new_path, (err) => {
                         if (err) {
                             console.log("File does not exist with this name");
+                            console.log('For `rm` docs visit https://synix-docs.netlify.com/ccc/commands.html#rm')
                         } else {
                             console.log(`${file} has been deleted`);
                         }
@@ -25,6 +26,7 @@ function rm(path, FileName) {
         fs.rmdir(new_path, { recursive: true }, (err) => {
             if (err) {
                 console.log("Folder does not exist with this name");
+                console.log('For `rm` docs visit https://synix-docs.netlify.com/ccc/commands.html#rm')
             } else {
                 console.log(`${FileName} has been deleted`);
             }
@@ -36,6 +38,7 @@ function rm(path, FileName) {
         fs.unlink(new_path, (err) => {
             if (err) {
                 console.log("File does not exist with this name");
+                console.log('For `rm` docs visit https://synix-docs.netlify.com/ccc/commands.html#rm')
             } else {
                 console.log(`${FileName} has been deleted`);
             }
