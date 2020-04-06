@@ -5,6 +5,7 @@ function mkpro(name) {
     exec(`sx mkdir ${name} && sx open ${name}`, { cwd: process.cwd() }, (error, stdout, stderr) => {
         if (error) {
             console.error(`exec error: ${error}`);
+            console.log('For `mkpro` docs visit https://synix-docs.netlify.com/ccc/commands.html#mkpro')
             return;
         } else {
             console.log("Creating Project....");
