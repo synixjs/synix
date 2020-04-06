@@ -10,7 +10,7 @@ $ npm i -g synix
 $ sx init code # for vscode
 
 # checking version
-$ sx versiuon # or sx v
+$ sx version # or sx v
 
 ```
 ### Basic usage
