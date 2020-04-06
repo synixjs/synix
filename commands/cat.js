@@ -7,9 +7,10 @@ function cat(path, FileName) {
 
     fs.readFile(new_path, "utf-8", (err, data) => {
         if (err) {
-            console.log("File does not exist with this name");
+            console.error("File does not exist with this name");
+            console.log('Please check your current working directory')
+            console.log('For `cat` docs visit https://synix-docs.netlify.com/ccc/commands.html#cat')
         } else {
-            console.log(`${FileName} has the following contents:`);
             console.log('\n');
             console.log(data);
             console.log('\n');
