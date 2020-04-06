@@ -17,6 +17,7 @@ function open(pathArray) {
     exec(`cd ${cdString} && ${sxconfig.Text_editor[1]['command']} .`, { cwd: process.cwd() }, (error) => {
         if (error) {
             console.error(`exec error: ${error}`);
+            console.log('For `open` docs visit https://synix-docs.netlify.com/ccc/commands.html#open')
             return;
         }
         console.log(`Opening ${sxconfig.Text_editor[0]['editor_name']}...`);
