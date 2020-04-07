@@ -14,3 +14,5 @@ $ npm link
 By doing this you will have a command `sxd` as a global command to test your code   
 
 `npm unlink` in the same directory will unlink it
+
+If you want to contribute to this then create an issue and then we'll assign you. A more detailed way is present [here](https://synix-docs.netlify.com/ccc/contribute.html)
