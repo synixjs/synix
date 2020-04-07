@@ -5,7 +5,7 @@
     "main": "sx.js",
     "preferGlobal": true,
     "bin": {
-        "sx": "sx.js"
+        "sxd": "sx.js"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
