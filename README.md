@@ -15,4 +15,6 @@ By doing this you will have a command `sxd` as a global command to test your cod
 
 `npm unlink` in the same directory will unlink it
 
+>If you like the project then star the repository :)
+
 If you want to contribute to this then create an issue and then we'll assign you. A more detailed way is present [here](https://synix-docs.netlify.com/ccc/contribute.html)
